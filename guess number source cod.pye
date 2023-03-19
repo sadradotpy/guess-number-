@@ -1,0 +1,18 @@
+#--------------import----------------
+
+import random
+ca = random.randint(1, 50)
+#--------------setting---------------
+print(ca)
+num_1 =int(input("Tell me your guess:"))
+
+while ca != num_1:
+    if ca > num_1:
+        print("the answer is bigger than your guess")
+        num_1 =int(input("Tell me your guess:"))
+    elif ca < num_1:
+        print("the answer is smaller than your guess")
+        num_1 =int(input("Tell me your guess:"))
+
+print("congratulations you did , you winnnnn!!!")
+#sadra_camustak
